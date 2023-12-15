@@ -19,23 +19,23 @@ export const NavBar = () => {
         <div className="header__main">
           <ul className="header__links">
             <li className="header__link-wrapper">
-              <a href="./index.html" className="header__link">
+              <a href="./" className="header__link">
                 {" "}
                 Home{" "}
               </a>
             </li>
             <li className="header__link-wrapper">
-              <a href="./index.html#about" className="header__link">
+              <a href="./#about" className="header__link">
                 About{" "}
               </a>
             </li>
             <li className="header__link-wrapper">
-              <a href="./index.html#projects" className="header__link">
+              <a href="./#projects" className="header__link">
                 Projects
               </a>
             </li>
             <li className="header__link-wrapper">
-              <a href="./index.html#contact" className="header__link">
+              <a href="./#contact" className="header__link">
                 {" "}
                 Contact{" "}
               </a>
@@ -59,19 +59,19 @@ export const NavBar = () => {
         <div className="header__sm-menu-content">
           <ul className="header__sm-menu-links">
             <li className="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="./"> Home </a>
             </li>
 
             <li className="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
+              <a href="./#about"> About </a>
             </li>
 
             <li className="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
+              <a href="./#projects"> Projects </a>
             </li>
 
             <li className="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="./#contact"> Contact </a>
             </li>
           </ul>
         </div>
