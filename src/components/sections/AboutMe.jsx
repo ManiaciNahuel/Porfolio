@@ -7,10 +7,6 @@ export const AboutMe = () => {
           <div className="main-container">
             <h2 className="heading heading-sec heading-sec__mb-med">
               <span className="heading-sec__main">About Me</span>
-              {/* <!-- <span className="heading-sec__sub">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
-            </span> --> */}
             </h2>
             <div className="about__content">
               <div className="about__content-main">
@@ -22,7 +18,7 @@ export const AboutMe = () => {
                     posteriormente ingresé a la carrera de Ingeniería en
                     Sistemas en la Universidad Tecnológica Nacional. Sin
                     embargo, tras dos años, decidí cambiar mi enfoque hacia el
-                    <strong>Desarrollo Web</strong>, participando en diversos
+                    <strong> Desarrollo Web</strong>, participando en diversos
                     cursos online que abarcaban lenguajes web, herramientas de
                     desarrollo y frameworks, incluyendo un capacitaciones en
                     diseño web.
@@ -35,7 +31,7 @@ export const AboutMe = () => {
                     para desarrollar proyectos significativos. Mi objetivo
                     principal es seguir ampliando mis habilidades en cada
                     proyecto que emprendo, centrándome en el proceso de
-                    <strong>crecimiento y aprendizaje </strong>tanto personal
+                    <strong> crecimiento y aprendizaje </strong>tanto personal
                     como profesional.
                   </p>
                   <p className="about__content-details-para">
@@ -44,7 +40,7 @@ export const AboutMe = () => {
                 </div>
                 <a
                   href="#contact"
-                  className="btn btn--med btn--theme dynamicBgClr"
+                  className="btn btn--med dynamicBgClr"
                 >
                   Contact
                 </a>

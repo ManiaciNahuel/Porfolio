@@ -2,8 +2,12 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background: $colorPrimario;
+ /*  background: linear-gradient(
+      to right,
+      rgba($colorSecundario, 0.8),
+      rgba($colorSecundario, 0.8)
+    ); */
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -20,11 +24,11 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: $colorTerciario;
     transition: color .3s;
 
-    &:hover {
-      color: $themeClrPrimary;
+   &:hover {
+      color: $colorSecundario;
     }
   }
   &__logo-img-cont {
@@ -33,7 +37,7 @@
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: $themeClrPrimary;
+    background: $colorTerciario;
 
     @include respond(tab-port) {
       width: 4.5rem;
@@ -61,17 +65,17 @@
     }
   }
   &__link {
-    padding: 2.2rem 3rem;
+    padding: 1.2rem 2rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: $colorTerciario;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s;
 
     &:hover {
-      color: $themeClrPrimary;
+      color: $colorSecundario;
     }
     @include respond(tab-port) {
       padding: 3rem 1.8rem;
@@ -97,7 +101,7 @@
   }
 
   &__sm-menu {
-    background: #fff;
+    background: $colorSecundario;
     position: absolute;
     width: 100%;
     top: 100%;
@@ -124,21 +128,21 @@
       text-decoration: none;
       padding: 2.5rem 3rem;
       font-size: 1.6rem;
-      color: #333;
+      color: $colorSecundario;
       text-align: right;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid $colorTerciario;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
       transition: color .3s;
       
       &:hover {
-        color: $themeClrPrimary;
+        color: $colorTerciario;
       }
     }
     &:first-child {
       a {
-        border-top: 1px solid #eee;
+        border-top: 1px solid $colorTerciario;
       }
     }
   }

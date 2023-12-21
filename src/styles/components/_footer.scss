@@ -1,6 +1,6 @@
 .main-footer {
   background: #000;
-  color: #fff;
+  color: $colorTerciario;
   &__upper {
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@
 
   &__short-desc {
     margin-top: 2rem;
-    color: #eee;
+    color: $colorPrimario;
     font-size: 1.5rem;
     line-height: 1.7;
   }
@@ -50,7 +50,7 @@
   &__lower {
     padding: 4rem 0;
     border-top: 1px solid #444;
-    color: #eee;
+    color: $colorTerciario;
     font-size: 1.2rem;
     text-align: left;
     text-align: center;

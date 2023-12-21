@@ -5,7 +5,7 @@ export const Home = () => {
     <section className="home-hero">
           {/*  <!-- HELLO SECTION --> */}
           <div className="home-hero__content">
-            <h1 className="heading-primary">Hola! Mi nombre es Nahuel Maniaci</h1>
+            <h1 className="heading-primary">Bienvenido a mi portfolio!</h1>
             <div className="home-hero__info">
               <p className="text-primary">
                 Soy un desarrollador web apasionado por la programación.

@@ -36,7 +36,7 @@ export const Projects = () => {
                   </p>
                   <a
                     href="./project-1.html"
-                    className="btn btn--med btn--theme dynamicBgClr"
+                    className="btn btn--med dynamicBgClr"
                     target="_blank"
                   >
                     Más información.
@@ -61,7 +61,7 @@ export const Projects = () => {
                   </p>
                   <a
                     href="./project-2.html"
-                    className="btn btn--med btn--theme dynamicBgClr"
+                    className="btn btn--med dynamicBgClr"
                     target="_blank"
                   >
                     Más información.
@@ -86,7 +86,7 @@ export const Projects = () => {
                   </p>
                   <a
                     href="./project-3.html"
-                    className="btn btn--med btn--theme dynamicBgClr"
+                    className="btn btn--med dynamicBgClr"
                     target="_blank"
                   >
                     Más información.

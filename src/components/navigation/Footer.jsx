@@ -50,14 +50,7 @@ export const Footer = () => {
               <div className="main-footer__row main-footer__row-2">
                 <h4 className="heading heading-sm text-lt">Nahuel Maniaci</h4>
                 <p className="main-footer__short-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit
-                  facilis tempora explicabo quae quod deserunt
-                </p>
-              </div>
-            </div>
-
-            <div className="main-footer__lower">
-              &copy; Copyright 2021. Made by
+                  Template original: &copy; Copyright 2021. Made by
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -65,6 +58,10 @@ export const Footer = () => {
               >
                 Ram Maheshwari
               </a>
+              <br />
+              Cabe destacar que el diseño de este portafolio fue adaptado para su integración en React, y adicionalmente, se efectuaron ajustes estéticos que fueron desarrollados por mi persona.
+                </p>
+              </div>
             </div>
           </div>
         </footer>
