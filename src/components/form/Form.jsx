@@ -15,8 +15,9 @@ export const Form = () => {
         "U8FNvjb0lKLZIwSrH"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          form.current.reset();
+          window.location.href = '/';
         },
         (error) => {
           console.log(error.text);
@@ -25,6 +26,7 @@ export const Form = () => {
   };
   return (
     <form ref={form} onSubmit={sendEmail} className="contact__form" action="#">
+      <input type="text" name="_honey" style={{ display: "none"}}></input>
       <div className="contact__form-field">
         <label className="contact__form-label" htmlFor="name">
           Nombre/Empresa
