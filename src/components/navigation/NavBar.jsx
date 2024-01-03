@@ -1,7 +1,6 @@
 import React from "react";
 import johnPng from "../../assets/png/john-doe.png";
 
-
 export const NavBar = () => {
   return (
     <header className="header">
@@ -14,7 +13,9 @@ export const NavBar = () => {
               className="header__logo-img"
             />
           </div>
-          <span className="header__logo-sub">Nahuel Maniaci</span>
+          <a href="/">
+            <span className="header__logo-sub">Nahuel Maniaci</span>
+          </a>
         </div>
         <div className="header__main">
           <ul className="header__links">
