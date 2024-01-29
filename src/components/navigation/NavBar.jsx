@@ -1,14 +1,21 @@
-import React from "react";
-import johnPng from "../../assets/png/john-doe.png";
+import React, { useState } from "react";
+import personalPhoto from "../../assets/jpeg/photo_1.jpeg";
+import hamMenu from "../../assets/svg/ham-menu.svg";
+import hamMenuClose from "../../assets/svg/ham-menu-close.svg";
+
 
 export const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+
+
   return (
     <header className="header">
       <div className="header__content">
         <div className="header__logo-container">
           <div className="header__logo-img-cont">
             <img
-              src={johnPng}
+              src={personalPhoto}
               alt="Ram Maheshwari Logo"
               className="header__logo-img"
             />
@@ -42,41 +49,43 @@ export const NavBar = () => {
               </a>
             </li>
           </ul>
+          {/* Hamburger menu */}
           <div className="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              className="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              className="header__main-ham-menu-close d-none"
-            />
+            <button onClick={() => setIsOpen(!isOpen)}
+              className={`${isOpen ? 'btn-open' : ''}`}>
+              <img
+                src={isOpen ? hamMenuClose : hamMenu}
+                alt="hamburger menu"
+                className="header__main-ham-menu "
+              />
+            </button>
           </div>
         </div>
       </div>
-      <div className="header__sm-menu">
-        <div className="header__sm-menu-content">
-          <ul className="header__sm-menu-links">
-            <li className="header__sm-menu-link">
-              <a href="./"> Home </a>
-            </li>
+      {isOpen && (
+        <div className="header__sm-menu">
+          <div className="header__sm-menu-content">
+            <ul className="header__sm-menu-links">
+              <li className="header__sm-menu-link">
+                <a href="./"> Home </a>
+              </li>
 
-            <li className="header__sm-menu-link">
-              <a href="./#about"> About </a>
-            </li>
+              <li className="header__sm-menu-link">
+                <a href="./#about"> About </a>
+              </li>
 
-            <li className="header__sm-menu-link">
-              <a href="./#projects"> Projects </a>
-            </li>
+              <li className="header__sm-menu-link">
+                <a href="./#projects"> Projects </a>
+              </li>
 
-            <li className="header__sm-menu-link">
-              <a href="./#contact"> Contact </a>
-            </li>
-          </ul>
+              <li className="header__sm-menu-link">
+                <a href="./#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      )}
+
     </header>
   );
 };

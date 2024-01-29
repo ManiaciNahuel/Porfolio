@@ -11,8 +11,7 @@ export const Projects = () => {
         <h2 className="heading heading-sec heading-sec__mb-bg">
           <span className="heading-sec__main">Proyectos</span>
           <span className="heading-sec__sub">
-            Estos son algunos de mis últimos proyectos en los cuales pude
-            aplicar los recursos aprendidos.
+            Estos son algunos de mis últimos proyectos en los que he tenido la oportunidad de poner en práctica los conocimientos adquiridos.
           </span>
         </h2>
 
