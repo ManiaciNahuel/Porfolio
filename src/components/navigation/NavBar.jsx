@@ -29,23 +29,23 @@ export const NavBar = () => {
             <li className="header__link-wrapper">
               <a href="./" className="header__link">
                 {" "}
-                Home{" "}
+                Inicio{" "}
               </a>
             </li>
             <li className="header__link-wrapper">
               <a href="./#about" className="header__link">
-                About{" "}
+                Sobre mi{" "}
               </a>
             </li>
             <li className="header__link-wrapper">
               <a href="./#projects" className="header__link">
-                Projects
+                Proyectos
               </a>
             </li>
             <li className="header__link-wrapper">
               <a href="./#contact" className="header__link">
                 {" "}
-                Contact{" "}
+                Contacto{" "}
               </a>
             </li>
           </ul>
@@ -67,19 +67,19 @@ export const NavBar = () => {
           <div className="header__sm-menu-content">
             <ul className="header__sm-menu-links">
               <li className="header__sm-menu-link">
-                <a href="./"> Home </a>
+                <a href="./"> Inicio </a>
               </li>
 
               <li className="header__sm-menu-link">
-                <a href="./#about"> About </a>
+                <a href="./#about"> Sobre mi </a>
               </li>
 
               <li className="header__sm-menu-link">
-                <a href="./#projects"> Projects </a>
+                <a href="./#projects"> Proyectos </a>
               </li>
 
               <li className="header__sm-menu-link">
-                <a href="./#contact"> Contact </a>
+                <a href="./#contact"> Contacto </a>
               </li>
             </ul>
           </div>
