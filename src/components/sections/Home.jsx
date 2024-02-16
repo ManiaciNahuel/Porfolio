@@ -2,7 +2,7 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <section className="home-hero">
+    <section className="home-hero" id="home">
       {/*  <!-- HELLO SECTION --> */}
       <div className="home-hero__content">
         <h1 className="heading-primary">Bienvenido a mi portfolio!</h1>
@@ -22,12 +22,16 @@ export const Home = () => {
         </div>
       </div>
       <div className="home-hero__socials">
-        <div className="home-hero__social">
-          <a href="/" className="home-hero__social-icon-link cv__logo">
+        {/* CV */}
+        <div className="home-hero__social" target="_blank"
+          rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1HVGSQ91-dkh5A8dmt9dJD4gaGNQEy4vu/view?usp=sharing" className="home-hero__social-icon-link cv__logo">
             CV
           </a>
         </div>
-        <div className="home-hero__social">
+        {/* Linkedin */}
+        <div className="home-hero__social" target="_blank"
+          rel="noopener noreferrer">
           <a href="/" className="home-hero__social-icon-link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +46,11 @@ export const Home = () => {
             </svg>
           </a>
         </div>
+        {/* Github */}
         <div className="home-hero__social">
-          <a href="/" className="home-hero__social-icon-link">
+          <a href="https://github.com/ManiaciNahuel" className="home-hero__social-icon-link"
+            target="_blank"
+            rel="noopener noreferrer">
             <svg
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"

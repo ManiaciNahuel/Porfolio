@@ -4,6 +4,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+
   @include respond(phone) {
     font-size: 4.5rem;
   }
@@ -11,8 +12,10 @@
 
 .heading-sec {
   color: $colorPrimario;
+
   &__mb-bg {
     margin-bottom: 3rem;
+
     @include respond(tab-port) {
       margin-bottom: 8rem;
     }
@@ -20,6 +23,7 @@
 
   &__mb-med {
     margin-bottom: 9rem;
+
     @include respond(tab-port) {
       margin-bottom: 8rem;
     }
@@ -27,20 +31,23 @@
 
   &__main {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 3.5rem;
     position: relative;
+
     &--lt {
       color: $colorPrimario;
+
       &::after {
         content: '';
         background: $colorPrimario !important;
       }
     }
+
     &::after {
       content: '';
       position: absolute;
@@ -106,13 +113,15 @@
     cursor: pointer;
     transform: translateY(-5px);
     color: black;
-    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.415);;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.415);
+    ;
   }
 
   &--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem;
   }
+
   &--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem;
@@ -122,6 +131,7 @@
     background: $colorPrimario;
     color: $colorTerciario;
   }
+
   &--theme-inv {
     color: $colorPrimario;
     background: $colorTerciario;
@@ -132,7 +142,8 @@
 }
 
 .sec-pad {
-  padding: 8rem 0;
+  padding: 5rem 0;
+
   @include respond(tab-port) {
     padding: 6rem 0;
   }

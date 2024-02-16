@@ -48,19 +48,21 @@ export const AboutMe = () => {
           <div className="about__content-skills">
             <h3 className="about__content-title">Herramientas</h3>
             <div className="skills">
-              <div className="skills__skill">HTML</div>
-              <div className="skills__skill">CSS</div>
-              <div className="skills__skill">SASS</div>
-              <div className="skills__skill">Excel</div>
-              <div className="skills__skill">Word</div>
-              <div className="skills__skill">SQL</div>
-              <div className="skills__skill">GIT</div>
-              <div className="skills__skill">JavaScript</div>
-              <div className="skills__skill">React</div>
-              <div className="skills__skill">Power Bi</div>
-              <div className="skills__skill">Firebase</div>
-              <div className="skills__skill">Adobe Photoshop</div>
-              <div className="skills__skill">Adobe Illustrator</div>
+              <div className="skills__skill skills__marcado_estilo">HTML</div>
+              <div className="skills__skill skills__marcado_estilo">CSS</div>
+              <div className="skills__skill skills__programacion">JavaScript</div>
+              <div className="skills__skill skills__programacion">Python</div>
+              <div className="skills__skill skills__marcado_estilo">SASS</div>
+              <div className="skills__skill skills__office">Excel</div>
+              <div className="skills__skill skills__office">Word</div>
+              <div className="skills__skill skills__datos">SQL</div>
+              <div className="skills__skill skills__framework_biblioteca">Bootstrap</div>
+              <div className="skills__skill skills__framework_biblioteca">React</div>
+              <div className="skills__skill skills__framework_biblioteca">Express</div>
+              <div className="skills__skill skills__datos">Power Bi</div>
+              <div className="skills__skill skills__datos">Firebase</div>
+              <div className="skills__skill skills__diseño">Adobe Photoshop</div>
+              <div className="skills__skill skills__diseño">Adobe Illustrator</div>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ export const NavBar = () => {
         <div className="header__main">
           <ul className="header__links">
             <li className="header__link-wrapper">
-              <a href="./" className="header__link">
+              <a href="./#home" className="header__link">
                 {" "}
                 Inicio{" "}
               </a>

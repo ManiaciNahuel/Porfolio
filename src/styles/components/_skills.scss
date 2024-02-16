@@ -1,6 +1,7 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
+
   &__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
@@ -10,11 +11,67 @@
     border-radius: $commonBorderRadius;
     font-weight: 600;
     color: $colorPrimario;
+
     &:hover {
       cursor: default;
       transform: translateY(-2px);
-
       background: rgba($colorCuaternario, 1.7);
+    }
+
+  }
+
+  @mixin hover {
+    font-size: 1.5rem;
+    background-color: rgba($colorSecundario, 0.8);
+    position: absolute;
+    bottom: 5rem;
+    padding: 5px;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+  }
+
+
+  &__marcado_estilo {
+    &:hover::before {
+      @include hover;
+      content: "Lenguaje de marcado y estilos";
+    }
+  }
+
+  &__office {
+    &:hover::before {
+      @include hover;
+      content: "Office";
+    }
+  }
+
+  &__framework_biblioteca {
+    &:hover::before {
+      @include hover;
+      content: "Framework/Biblioteca";
+    }
+  }
+
+  &__datos {
+    &:hover::before {
+      @include hover;
+      content: "Base de datos/análisis";
+    }
+  }
+
+  &__diseño {
+    &:hover::before {
+      @include hover;
+      content: "Diseño Gráfico";
+    }
+  }
+
+  &__programacion {
+    &:hover::before {
+      @include hover;
+      content: "Lenguaje de programación";
     }
   }
 }
