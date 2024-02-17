@@ -22,11 +22,13 @@
 
   @mixin hover {
     font-size: 1.5rem;
-    background-color: rgba($colorSecundario, 0.8);
+    background-color: rgba($colorSecundario, 0.9);
     position: absolute;
     bottom: 5rem;
+    left: -1rem;
     padding: 5px;
-    width: auto;
+    min-width: 100px;
+    width: fit-content;
     display: flex;
     flex-wrap: nowrap;
     border-radius: 5px;
@@ -50,7 +52,7 @@
   &__framework_biblioteca {
     &:hover::before {
       @include hover;
-      content: "Framework/Biblioteca";
+      content: "Framework Biblioteca";
     }
   }
 
