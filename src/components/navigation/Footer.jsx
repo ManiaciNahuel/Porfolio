@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const Footer = () => {
   return (
@@ -10,10 +10,7 @@ export const Footer = () => {
               <span>Social</span>
             </h2>
             <div className="main-footer__social-cont">
-              {/* CV */}
-              <a href="https://drive.google.com/file/d/1HVGSQ91-dkh5A8dmt9dJD4gaGNQEy4vu/view?usp=sharing" className="home-hero__social-icon-link cv__logo__footer">
-                CV
-              </a>
+
 
               {/* Linkedin */}
               <a target="_blank" rel="noreferrer" href="/">
@@ -46,7 +43,22 @@ export const Footer = () => {
                   />
                 </svg>
               </a>
-
+              {/* CV */}
+              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1HVGSQ91-dkh5A8dmt9dJD4gaGNQEy4vu/view?usp=sharing">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="main-footer__icon"
+                  fill="currentColor"
+                  shape-rendering="geometricPrecision"
+                  text-rendering="geometricPrecision"
+                  preserveAspectRatio="xMidYMid"
+                  viewBox="0 0 300 300">
+                  <circle r="130.325" fill="#303030" transform="matrix(1.13084 0 0 1.13084 150 150)"></circle>
+                  <text fill="#fff" stroke-width="0" dx="0" dy="0" font-family="Arial, sans-serif" font-size="15" transform="matrix(11.97274 0 0 11.9728 23.2 212.826)">
+                    <tspan y="0" font-weight="400">CV</tspan>
+                  </text>
+                </svg>
+              </a>
             </div>
           </div>
           <div className="main-footer__row main-footer__row-2">

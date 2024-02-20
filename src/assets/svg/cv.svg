@@ -1,0 +1,8 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 300 300">
+  <circle r="130.325" fill="#303030" transform="matrix(1.13084 0 0 1.13084 150 150)"></circle>
+  <text fill="#fff" stroke-width="0" dx="0" dy="0" font-family="Arial, sans-serif" font-size="15" transform="matrix(11.97274 0 0 11.9728 23.2 212.826)">
+    <tspan y="0" font-weight="400">cv</tspan>
+  </text>
+</svg>
