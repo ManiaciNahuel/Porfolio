@@ -81,9 +81,7 @@ export const Projects = () => {
             <div className="projects__row-content">
               <h3 className="projects__row-content-title">NBA Teams</h3>
               <p className="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Página básica con una forma de importar y utilizar datos en JavaScript, esta destinada a mostrar información sobre equipos de NBA renderizandolos en el DOM desde un archivo JS.
               </p>
               <a
                 href="https://github.com/ManiaciNahuel/nba"
