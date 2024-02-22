@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import personalPhoto from "../../assets/jpeg/photo_1.jpeg";
 import hamMenu from "../../assets/svg/ham-menu.svg";
 import hamMenuClose from "../../assets/svg/ham-menu-close.svg";
-import cvSvg from "../../assets/svg/cv.svg";
-
 
 
 export const NavBar = () => {
@@ -56,7 +54,7 @@ export const NavBar = () => {
             <button onClick={() => setIsOpen(!isOpen)}
               className={`${isOpen ? 'btn-open' : ''}`}>
               <img
-                src={isOpen ? cvSvg : hamMenu}
+                src={isOpen ? hamMenuClose : hamMenu}
                 alt="hamburger menu"
                 className="header__main-ham-menu "
               />

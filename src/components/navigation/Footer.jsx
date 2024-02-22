@@ -13,7 +13,7 @@ export const Footer = () => {
 
 
               {/* Linkedin */}
-              <a target="_blank" rel="noreferrer" href="/">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nahuel-alejandro-maniaci-pereyra-2b5b412b5/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   preserveAspectRatio="xMidYMid"

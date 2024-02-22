@@ -32,7 +32,7 @@ export const Home = () => {
         {/* Linkedin */}
         <div className="home-hero__social" target="_blank"
           rel="noopener noreferrer">
-          <a href="/" className="home-hero__social-icon-link">
+          <a href="https://www.linkedin.com/in/nahuel-alejandro-maniaci-pereyra-2b5b412b5/" className="home-hero__social-icon-link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMidYMid"
