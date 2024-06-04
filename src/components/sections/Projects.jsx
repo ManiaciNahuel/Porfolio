@@ -32,14 +32,24 @@ export const Projects = () => {
                 para una empresa de encomiendas que realiza envíos dentro de
                 Argentina.
               </p>
+              <div className="projects__row-content-links">
               <a
-                href="https://github.com/ManiaciNahuel/corlog"
-                className="btn btn--med dynamicBgClr"
+                href="https://corlogargentina.com.ar"
+                className="btn2 btn2--med btn20--inline dynamicBgClr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Más información.
+                Visitar Página.
               </a>
+              <a
+                  href="https://github.com/ManiaciNahuel/corlog"
+                  className="btn2 btn2--med btn2--inline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Repositorio
+              </a>
+              </div>
             </div>
           </div>
           <div className="projects__row">
@@ -59,14 +69,24 @@ export const Projects = () => {
                 El trabajo en cuestión es un e-commerce que maneja una base de
                 datos a través de Firebase.
               </p>
+              <div className="projects__row-content-links">
               <a
-                href="https://github.com/ManiaciNahuel/e-commerce-maniaci"
-                className="btn btn--med dynamicBgClr"
+                href="https://maniaci-nahuel-ecommerce.netlify.app/"
+                className="btn2 btn2--med btn20--inline dynamicBgClr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Más información.
+                Visitar Página.
               </a>
+              <a
+                  href="https://github.com/ManiaciNahuel/e-commerce-maniaci"
+                  className="btn2 btn2--med btn2--inline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Repositorio
+                </a>
+                </div>
             </div>
           </div>
           <div className="projects__row">
@@ -83,14 +103,24 @@ export const Projects = () => {
               <p className="projects__row-content-desc">
                 Página básica con una forma de importar y utilizar datos en JavaScript, esta destinada a mostrar información sobre equipos de NBA renderizandolos en el DOM desde un archivo JS.
               </p>
-              <a
-                href="https://github.com/ManiaciNahuel/nba"
-                className="btn btn--med dynamicBgClr"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Más información.
-              </a>
+              <div className="projects__row-content-links">
+                <a
+                  href="https://maniacinahuel.github.io/nba/"
+                  className="btn2 btn2--med btn20--inline dynamicBgClr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visitar Página
+                </a>
+                <a
+                  href="https://github.com/ManiaciNahuel/nba"
+                  className="btn2 btn2--med btn2--inline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Repositorio
+                </a>
+              </div>
             </div>
           </div>
         </div>

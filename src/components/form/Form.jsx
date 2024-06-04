@@ -67,7 +67,7 @@ export const Form = () => {
           id="message"
         ></textarea>
           </div>
-          <input type="submit" className="btn btn--med dynamicBgClr" value="Send" />
+          <input type="submit" className="btn btn--med dynamicBgClr" value="Enviar" />
     </form>
   );
 };

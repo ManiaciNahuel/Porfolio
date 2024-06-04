@@ -114,7 +114,7 @@
     transform: translateY(-5px);
     color: black;
     box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.415);
-    ;
+    background-color: $colorCuaternario;
   }
 
   &--bg {
@@ -140,6 +140,37 @@
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
   }
 }
+
+.btn2 {
+  background: $colorSecundario;
+  color: $colorPrimario;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 600;
+  border: none;
+  border-radius: $commonBorderRadius;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.415);
+  transition: transform .3s;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: black;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.415);
+    background-color: $colorCuaternario;
+  }
+
+  &--med {
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  &--inline {
+    margin-right: 1rem; /* Añade un margen entre los botones */
+  }
+}
+
 
 .sec-pad {
   padding: 5rem 0;
