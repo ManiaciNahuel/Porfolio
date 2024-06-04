@@ -39,7 +39,7 @@ export const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Visitar Página.
+                Visitar Página
               </a>
               <a
                   href="https://github.com/ManiaciNahuel/corlog"
@@ -76,7 +76,7 @@ export const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Visitar Página.
+                Visitar Página
               </a>
               <a
                   href="https://github.com/ManiaciNahuel/e-commerce-maniaci"
